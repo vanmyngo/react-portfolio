@@ -1,6 +1,6 @@
 # Personal Portfolio 
 Personal portfolio using Reactjs.  
-Demo: https://vanmyngo.github.io/  
+Demo: https://vanmyngo.github.io/react-portfolio  
 
 # Instructions
 ## React App
