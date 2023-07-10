@@ -1,4 +1,3 @@
-import './App.css';
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
@@ -10,7 +9,7 @@ import Project from './components/Project';
 
 function App() {
   return (
-    <div className='main'>
+    <div>
       <BrowserRouter>
         <NavBar />
         <Hero />

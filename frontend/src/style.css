@@ -1,3 +1,17 @@
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #122568 !important;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    font-family: 'Courier New', Courier, monospace, -apple-system, BlinkMacSystemFont;
+    color: #F3F8FD !important;
+    height: 100%;
+    overflow: auto !important;
+  }
+
 strong {
     background: -webkit-linear-gradient(45deg, #FBAE0E, #2adf76);
     -webkit-background-clip: text;
@@ -46,7 +60,7 @@ strong {
     border-radius: 10px;
 }
 
-.hero-avatar > img {
+.hero-avatar {
     width: 75%;
     height: auto;
 }
@@ -145,7 +159,7 @@ strong {
 }
 
 .project-card > img {
-    width: 200px;
+    width: 75%;
     height: auto;
     border-radius: inherit;
     padding: 10px 0;
