@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.6d64f688.css",
-    "main.js": "/react-portfolio/static/js/main.10d0c53a.js",
-    "static/js/787.cda612ba.chunk.js": "/react-portfolio/static/js/787.cda612ba.chunk.js",
-    "static/media/Resume_VanNgo.pdf": "/react-portfolio/static/media/Resume_VanNgo.e3fa413e0ab0641fa7fc.pdf",
-    "static/media/portfolio.png": "/react-portfolio/static/media/portfolio.6c3b851918ef6e9cab41.png",
-    "static/media/hero-avatar.png": "/react-portfolio/static/media/hero-avatar.b35fdf343d19c108121c.png",
-    "static/media/stock-prediction.webp": "/react-portfolio/static/media/stock-prediction.6c56afbc12cddf49320b.webp",
-    "static/media/profile.jpg": "/react-portfolio/static/media/profile.094a99d4e012d7bc4b91.jpg",
-    "static/media/language-prediction.png": "/react-portfolio/static/media/language-prediction.9ae58a3fe9767d7bbab9.png",
-    "static/media/revicons.eot": "/react-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/react-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/react-portfolio/static/media/revicons.e8746a624ed098489406.woff",
-    "index.html": "/react-portfolio/index.html",
-    "main.6d64f688.css.map": "/react-portfolio/static/css/main.6d64f688.css.map",
-    "main.10d0c53a.js.map": "/react-portfolio/static/js/main.10d0c53a.js.map",
-    "787.cda612ba.chunk.js.map": "/react-portfolio/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/static/css/main.d3e52f07.css",
+    "main.js": "/static/js/main.98e4cfbc.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/Resume_VanNgo.pdf": "/static/media/Resume_VanNgo.e3fa413e0ab0641fa7fc.pdf",
+    "static/media/portfolio.png": "/static/media/portfolio.6c3b851918ef6e9cab41.png",
+    "static/media/hero-avatar.png": "/static/media/hero-avatar.b35fdf343d19c108121c.png",
+    "static/media/stock-prediction.webp": "/static/media/stock-prediction.6c56afbc12cddf49320b.webp",
+    "static/media/profile.jpg": "/static/media/profile.094a99d4e012d7bc4b91.jpg",
+    "static/media/language-prediction.png": "/static/media/language-prediction.9ae58a3fe9767d7bbab9.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.d3e52f07.css.map": "/static/css/main.d3e52f07.css.map",
+    "main.98e4cfbc.js.map": "/static/js/main.98e4cfbc.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d64f688.css",
-    "static/js/main.10d0c53a.js"
+    "static/css/main.d3e52f07.css",
+    "static/js/main.98e4cfbc.js"
   ]
 }
