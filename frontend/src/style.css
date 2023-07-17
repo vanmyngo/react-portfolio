@@ -34,6 +34,11 @@ strong {
     text-decoration: none;
     margin: 0 15px;
     font-size: 16px;
+    color: #F3F8FD !important;
+}
+
+.navbar {
+    background: rgba(128, 128, 128, 0.2);
 }
 
 /* HERO */
@@ -183,4 +188,22 @@ strong {
 
 .project-card > p {
     font-size: 12px;
+}
+
+/* FOOTER */
+.footer-section {
+    display: inline-flex !important;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+    width: 100%;
+    height: auto;
+    padding: 3px 15px !important;
+    background: rgba(128, 128, 128, 0.2);
+}
+
+#footer-logo {
+    color: #F9AB96 !important;
+    font-weight: bolder !important;
 }

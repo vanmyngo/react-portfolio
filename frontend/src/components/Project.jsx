@@ -8,7 +8,6 @@ import portfolio from '../static/images/portfolio.png';
 
 
 const Project = () => {
-    
     const responsive = {
         superLargeDesktop: {
             breakpoint: { max: 4000, min: 3000 },
@@ -46,10 +45,11 @@ const Project = () => {
                     <h6>Stock Prediction</h6>
                     <p>
                         <strong>Python</strong><br />
-                        Predict the everchanging of stock prices by fetching 
-                        historical data straight from Yahoo Finance. 
-                        Demonstrate data preparation and the use of pandas 
-                        dataframe for machine learning models.
+                        Developed a stock price prediction project that 
+                        leverages historical data fetched directly from 
+                        Yahoo Finance. The project aims to forecast the 
+                        everchanging stock prices using machine learning 
+                        techniques.
                     </p>
                     <a 
                     href='https://github.com/vanmyngo/stock-predictor'
@@ -67,10 +67,15 @@ const Project = () => {
                     
                     <p>
                         <strong>Python</strong><br />
-                        Detect spoken language using input from 
-                        the device's microphone. The main purpose is to 
-                        determine language with no knowledge of what 
-                        language is the speaker speaking in
+                        Developed a real-time language detection and 
+                        translation system as a personal portfolio project. 
+                        The system takes input from a microphone and 
+                        accurately detects the spoken language from a pool 
+                        of languages. It then automatically translates the 
+                        phrase into English if it is not already in English. 
+                        Integrated popular translation APIs to enable 
+                        seamless and accurate translation of the detected 
+                        language into English.
                     </p>
                     <a 
                     href='https://github.com/vanmyngo/language-detection'
@@ -87,8 +92,13 @@ const Project = () => {
                     <h6>Personal Portfolio</h6>
                     <p>
                         <strong>JSX | CSS</strong><br />
-                        Personal porfolio website that ultilized ReactJs 
-                        and Bootstrap. 
+                        Utilized ReactJS to create a dynamic and responsive 
+                        user interface, enhancing the user experience with 
+                        smooth transitions and interactive components. 
+                        Employed modern web development practices, including 
+                        component-based architecture, state management, 
+                        and routing, to ensure scalability and maintainability 
+                        of the website.
                     </p>
                     <a 
                     href='https://github.com/vanmyngo/react-portfolio'

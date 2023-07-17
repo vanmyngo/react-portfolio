@@ -12,7 +12,6 @@ import {
 import { SiReact } from 'react-icons/si';
 
 const Language = () => {
-    
     // List of program languages
     const items = [
         <Container>

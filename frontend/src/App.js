@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Language from './components/Language';
 import NavBar from './components/NavBar';
 import Project from './components/Project';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <About />
         <Language />
         <Project /> 
+        <Footer />
       </BrowserRouter>
     </div>
   );

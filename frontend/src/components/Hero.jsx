@@ -2,10 +2,9 @@ import { Container, Col, Row, Button } from 'react-bootstrap';
 import { PiDownloadSimple } from 'react-icons/pi';
 import SocialMediaLink from './SocialMediaLink';
 import heroAvatar from '../static/images/hero-avatar.png';
-import resume from '../static/Resume_VanNgo.pdf';
+import resume from '../static/resume_van-ngo.pdf';
 
 const Hero = () => {
-    
     return (
         <Container className='hero-section' id='home'>
             <Col className='hero-info'>
@@ -17,8 +16,9 @@ const Hero = () => {
                         <strong>Van Ngo</strong>
                     </h1>
                     <p>
-                        I'm a <strong>LEARNER</strong>.<br/>
-                        A knowledge chaser motivated by projects.
+                        I'm a passionate and continuous <strong>LEARNER</strong>, 
+                        constantly seeking new knowledge and skills 
+                        to fuel my projects.
                     </p>
                 </Row>
                 <Button href={resume} target='_blank' rel='noreferrer'>

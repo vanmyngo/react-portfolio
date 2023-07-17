@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { NavHashLink } from 'react-router-hash-link';
 
 const NavBar = () => {
-
     return(
         <Navbar sticky='top' expand='lg' variant='dark'>
             <Container>
