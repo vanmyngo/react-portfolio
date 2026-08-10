@@ -12,13 +12,13 @@ body {
     overflow: auto !important;
   }
 
-strong {
+b {
     background: -webkit-linear-gradient(45deg, #FBAE0E, #2adf76);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-/* NAVIGATION BAR */
+/* #region NAVBAR */
 .navbar-collapse {
     justify-content: end;
 }
@@ -40,9 +40,10 @@ strong {
 .navbar {
     background: rgba(128, 128, 128, 0.2);
 }
+/* #endregion NAVBAR */
 
-/* HERO */
-.hero-section {
+/* #region HERO */
+#hero-section {
     display: flex;
     flex-direction: row;
     align-content: space-around;
@@ -50,14 +51,14 @@ strong {
     padding: 50px 0;
 }
 
-.hero-info {
+#hero-info {
     display: flex;
     flex-direction: column;
     align-content: space-around;
     align-items: flex-start;
 }
 
-.btn {
+#download-resume-btn {
     background-image: linear-gradient(90deg, #FBAE0E, #2adf76);
     color: #122568;
     border: none;
@@ -65,33 +66,50 @@ strong {
     border-radius: 10px;
 }
 
-.hero-avatar {
-    width: 75%;
-    height: auto;
-}
-
 #social-media-header {
     text-align: start;
     margin: 20px 0;
 }
 
-/* SOCIAL MEDIA */
+#hero-greeting {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#hero-name {
+    font-size: 30px;
+    color: #FBAE0E;
+}
+
+#profile-img {
+    border-radius: 40%;
+    width: 50%;
+    height: auto;
+    padding: 100px;
+}
+/* #endregion HERO */
+
+/* #region SOCIAL MEDIA */
 .social-link {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     list-style-type: none;
 }
 
 .social-icon {
-    margin: 0 5px;
-    padding: 0 3px;
     border: 1px solid lightgray;
     border-radius: 50%;
     background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 5px;
+    width: clamp(2rem, 2vw, 3rem);
+    aspect-ratio: 1 / 1;
 }
+/* #endregion SOCIAL MEDIA */
 
-/* ABOUT */
+/* #region ABOUT */
 .about-section {
     display: flex;
     flex-direction: row;
@@ -119,8 +137,9 @@ strong {
     content: '➺';
     padding-right: 4px;
 }
+/* #endregion ABOUT */
 
-/* LANGUAGES */
+/* #region LANGUAGES */
 .language-section {
     padding: 70px 0;
     text-align: center;
@@ -140,8 +159,9 @@ strong {
 .alice-carousel {
     text-align: center;
 }
+/* #endregion LANGUAGES */
 
-/* PROJECTS */
+/* #region PROJECTS */
 .project-section {
     padding: 70px 0;
 }
@@ -189,8 +209,9 @@ strong {
 .project-card > p {
     font-size: 12px;
 }
+/* #endregion PROJECTS */
 
-/* FOOTER */
+/* #region FOOTER */
 .footer-section {
     display: inline-flex !important;
     align-content: space-around;
@@ -207,3 +228,4 @@ strong {
     color: #F9AB96 !important;
     font-weight: bolder !important;
 }
+/* #endregion FOOTER */

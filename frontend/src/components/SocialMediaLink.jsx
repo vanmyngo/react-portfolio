@@ -10,6 +10,7 @@ const SocialMediaLink = () => {
                     href='https://www.linkedin.com/in/vanmyngo'
                     target='_blank'
                     rel='noreferrer'
+                    aria-label='LinkedIn profile'
                     >
                         <FaLinkedinIn />
                     </a>
@@ -19,6 +20,7 @@ const SocialMediaLink = () => {
                     href='https://github.com/vanmyngo'
                     target='_blank'
                     rel='noreferrer'
+                    aria-label='GitHub profile'
                     >
                         <FaGithub />
                     </a>

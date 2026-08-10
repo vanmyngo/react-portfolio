@@ -1,10 +1,8 @@
 import { Col, Container } from 'react-bootstrap';
-import profile from '../static/images/profile.jpg';
 
 const About = () => {
     return (
         <Container className='about-section' id='about'>
-            <img src={profile} alt='profile'/>
             <Col className='about-me'>
                 <h3>THIS IS <strong>ME</strong></h3>
                 <p>
