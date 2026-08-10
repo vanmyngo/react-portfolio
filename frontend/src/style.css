@@ -23,11 +23,9 @@ b {
     justify-content: end;
 }
 
-.navbar-logo {
-    text-decoration: none;
-    color: #F9AB96;
-    font-size: 32px;
-    font-weight: bolder;
+#navbar-logo {
+    height: auto;
+    width: 20%;
 }
 
 .navbar-text {
@@ -215,7 +213,8 @@ b {
 }
 
 #footer-logo {
-    color: #F9AB96 !important;
-    font-weight: bolder !important;
+    width: 5%;
+    height: auto;
+    padding: 0 5px;
 }
 /* #endregion FOOTER */

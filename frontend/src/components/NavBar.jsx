@@ -1,6 +1,7 @@
 import { Container, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { NavHashLink } from 'react-router-hash-link';
+import nameLogo from '../static/images/name.ico';
 
 const NavBar = () => {
     return(
@@ -8,12 +9,10 @@ const NavBar = () => {
             <Container>
                 <Navbar.Brand>
                     <NavHashLink
-                    className='navbar-logo'
                     smooth
                     as={Link} 
-                    to='/react-portfolio/#home'>
-                        vn.
-                    </NavHashLink>
+                    to='/react-portfolio/#home'/>
+                    <img src={nameLogo} alt='name logo' id='navbar-logo'/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
