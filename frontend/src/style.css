@@ -2,20 +2,18 @@ body {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #122568 !important;
+    background-color: #121212 !important;
     display: flex;
     flex-direction: column;
     align-content: space-around;
     font-family: 'Courier New', Courier, monospace, -apple-system, BlinkMacSystemFont;
-    color: #F3F8FD !important;
+    color: #EDEDED !important;
     height: 100%;
     overflow: auto !important;
   }
 
 b {
-    background: -webkit-linear-gradient(45deg, #FBAE0E, #2adf76);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #F59E0B;
 }
 
 /* #region NAVBAR */
@@ -32,11 +30,10 @@ b {
     text-decoration: none;
     margin: 0 15px;
     font-size: 16px;
-    color: #F3F8FD !important;
 }
 
 .navbar {
-    background: rgba(128, 128, 128, 0.2);
+    background: #1E1E1E;
 }
 /* #endregion NAVBAR */
 
@@ -57,11 +54,16 @@ b {
 }
 
 #download-resume-btn {
-    background-image: linear-gradient(90deg, #FBAE0E, #2adf76);
-    color: #122568;
+    background: #F59E0B;
+    color: #0F172A;
     border: none;
     outline: none;
     border-radius: 10px;
+}
+
+#download-resume-btn:hover {
+    background: #D97706;
+    color: #0F172A;
 }
 
 #social-media-header {
@@ -76,7 +78,6 @@ b {
 
 #hero-name {
     font-size: 30px;
-    color: #FBAE0E;
 }
 
 #profile-img {
@@ -95,9 +96,7 @@ b {
 }
 
 .social-icon {
-    border: 1px solid lightgray;
     border-radius: 50%;
-    background-color: lightgray;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -168,7 +167,7 @@ b {
     align-items: center;
     margin: 0 10px;
     padding: 5px 10px;
-    background-color: #152b79;
+    background: #1E1E1E;
 }
 
 .project-card > img {
@@ -189,8 +188,8 @@ b {
     align-items: center;
     border-radius: 10px;
     padding: 0 10px;
-    background-image: linear-gradient(90deg, #FBAE0E, #2adf76);
-    color: #f3f8fd;
+    background: #F59E0B;
+    color: #0F172A;
     margin: 0 50px;
 }
 
@@ -209,7 +208,7 @@ b {
     width: 100%;
     height: auto;
     padding: 3px 15px !important;
-    background: rgba(128, 128, 128, 0.2);
+    background: #1E1E1E;
 }
 
 #footer-logo {
