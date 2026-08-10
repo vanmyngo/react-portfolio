@@ -1,37 +1,25 @@
 import { Col, Container } from 'react-bootstrap';
+import utsaLogo from '../static/images/utsa-logo.png';
 
 const About = () => {
     return (
-        <Container className='about-section' id='about'>
-            <Col className='about-me'>
-                <h3>THIS IS <strong>ME</strong></h3>
+        <Container id='about' className='about-section'>
+            <img src={utsaLogo} alt='utsa logo' id='utsa-logo'/>
+            <Col> 
+                <span id='hero-greeting'>
+                    THIS IS <b>VAN</b>
+                </span>
                 <p>
-                    I am an ambitious recent graduate, born in <strong>Vietnam</strong> and 
-                    raised in <strong>Texas</strong>, with a strong educational 
-                    background in <strong>Electrical and Computer Engineering</strong> from 
-                    UTSA. Passionate about Machine Learning, 
-                    I am seeking a position that aligns with my expertise 
-                    and allows me to contribute to innovative projects 
-                    in this field. My desired titles include, 
-                    but are not limited to:
-                </p>
-                <ul>
-                    <li>Machine Learning Engineer/Researcher</li>
-                    <li>Data Scientist</li>
-                    <li>Software Engineer</li>
-                </ul>
-                <p>
-                    However, I am open to exploring other opportunities 
-                    that can foster both professional and personal growth. 
-                    <br />
-                    My commitment to client satisfaction drives me to 
-                    continuously acquire new skills and adapt to diverse 
-                    project requirements. I am dedicated to delivering 
-                    high-quality work and ensuring that projects are 
-                    completed to exceed client expectations. With a 
-                    strong focus on organization, I maintain meticulous 
-                    documentation and strive to create efficient and 
-                    well-structured workspaces.
+                    I'm a Software Engineer born in <b>Vietnam</b> and raised in <b>Texas</b>, 
+                    with a background in <b>Electrical and Computer Engineering</b> from UTSA. 
+                    Over the past two years at General Motors, I've grown from a Software Test Engineer 
+                    into a Software Engineer — building REST APIs, supporting cloud deployments, 
+                    and contributing to a large-scale AngularJS-to-React migration.<br/><br/>
+
+                    My QA roots shape how I build: I write code with reliability in mind, 
+                    catch issues early, and care about shipping software that actually works. 
+                    Now, I'm focused on growing further as a software engineer and joining a 
+                    team where I can keep learning, move fast, and make an impact.
                 </p>
             </Col>
         </Container>

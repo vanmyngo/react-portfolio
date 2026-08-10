@@ -113,29 +113,19 @@ b {
 .about-section {
     display: flex;
     flex-direction: row;
-    align-content: space-around;
     align-items: center;
-    padding: 70px 0;
+    justify-content: space-between;
+    gap: 5rem;
 }
 
-.about-section > img {
-    border-radius: 50%;
-    width: 35%;
+.about-section > .col {
+    flex: 1;
+}
+
+#utsa-logo {
+    width: 30%;
     height: auto;
-    padding: 0 10px;
-}
-
-.about-me {
-    padding-left: 50px;
-}
-
-.about-me > ul {
-    list-style-type: none;
-}
-
-.about-me > ul > li::before {
-    content: '➺';
-    padding-right: 4px;
+    padding: 10px 0;
 }
 /* #endregion ABOUT */
 
