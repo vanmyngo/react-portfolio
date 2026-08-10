@@ -41,7 +41,7 @@ b {
 /* #endregion NAVBAR */
 
 /* #region HERO */
-#hero-section {
+.hero-section {
     display: flex;
     flex-direction: row;
     align-content: space-around;
@@ -213,7 +213,7 @@ b {
 }
 
 #footer-logo {
-    width: 5%;
+    width: 3%;
     height: auto;
     padding: 0 5px;
 }

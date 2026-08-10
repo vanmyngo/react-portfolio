@@ -6,7 +6,7 @@ import resume from '../static/VanNgo-Resume.pdf';
 
 const Hero = () => {
     return (
-        <Container id='hero-section'>
+        <Container id='home' className='hero-section'>
             <Col id='hero-info'>
                 <Row>
                     <span id='hero-greeting'>

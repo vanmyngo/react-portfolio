@@ -11,8 +11,9 @@ const NavBar = () => {
                     <NavHashLink
                     smooth
                     as={Link} 
-                    to='/react-portfolio/#home'/>
-                    <img src={nameLogo} alt='name logo' id='navbar-logo'/>
+                    to='/react-portfolio/#home'>
+                        <img src={nameLogo} alt='chinese character name logo' id='navbar-logo'/>
+                    </NavHashLink>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
