@@ -43,7 +43,7 @@ b {
     flex-direction: row;
     align-content: space-around;
     align-items: center;
-    padding: 50px 0;
+    margin: 50px 0;
 }
 
 #hero-info {
@@ -84,7 +84,7 @@ b {
     border-radius: 40%;
     width: 50%;
     height: auto;
-    padding: 100px;
+    padding: 0 100px;
 }
 /* #endregion HERO */
 
@@ -113,6 +113,7 @@ b {
     align-items: center;
     justify-content: space-between;
     gap: 5rem;
+    margin: 50px 0;
 }
 
 .about-section > .col {
@@ -128,11 +129,14 @@ b {
 
 /* #region LANGUAGES */
 .language-section {
-    padding: 70px 0;
+    margin: 50px 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
-.language-section > h3 {
+.language-section h2 {
     margin-bottom: 20px;
 }
 
@@ -150,7 +154,7 @@ b {
 
 /* #region PROJECTS */
 .project-section {
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 .project-section > h3 {
