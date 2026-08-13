@@ -1,10 +1,8 @@
 import { Container } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { FaGithub } from 'react-icons/fa';
-import stockPrediction from '../static/images/stock-prediction.webp';
-import langPrediction from '../static/images/language-prediction.png';
-import portfolio from '../static/images/portfolio.png';
+import ProjectCard from './ProjectCard';
+import projects from '../data/projects';
 
 
 const Project = () => {
@@ -29,7 +27,8 @@ const Project = () => {
 
     return (
         <Container className='project-section' id='project'>
-            <h3>MY <strong>PROJECTS</strong></h3>
+            <h2>WALL OF <b>ACHIEVEMENTS</b></h2>
+            {console.log(projects.map((project) => project.title))}
             <Carousel 
             responsive={responsive}
             infinite={true}
@@ -40,76 +39,10 @@ const Project = () => {
             transitionDuration={500}
             removeArrowOnDeviceType={["tablet", "mobile"]}
             >
-                <div className='project-card'>
-                    <img src={stockPrediction} alt='stock market trend' />
-                    <h6>Stock Prediction</h6>
-                    <p>
-                        <strong>Python</strong><br />
-                        Developed a stock price prediction project that 
-                        leverages historical data fetched directly from 
-                        Yahoo Finance. The project aims to forecast the 
-                        everchanging stock prices using machine learning 
-                        techniques.
-                    </p>
-                    <a 
-                    href='https://github.com/vanmyngo/stock-predictor'
-                    target='_blank'
-                    rel='noreferrer'
-                    >
-                        <FaGithub />
-                        &nbsp;
-                        Github
-                    </a>
-                </div>
-                <div className='project-card'>
-                    <img src={langPrediction} alt='predict language from script' />  
-                    <h6>Language Detection</h6>
-                    
-                    <p>
-                        <strong>Python</strong><br />
-                        Developed a real-time language detection and 
-                        translation system as a personal portfolio project. 
-                        The system takes input from a microphone and 
-                        accurately detects the spoken language from a pool 
-                        of languages. It then automatically translates the 
-                        phrase into English if it is not already in English. 
-                        Integrated popular translation APIs to enable 
-                        seamless and accurate translation of the detected 
-                        language into English.
-                    </p>
-                    <a 
-                    href='https://github.com/vanmyngo/language-detection'
-                    target='_blank'
-                    rel='noreferrer'
-                    >
-                        <FaGithub />
-                        &nbsp;
-                        Github
-                    </a>
-                </div>
-                <div className='project-card'>
-                    <img src={portfolio} alt='loading' />  
-                    <h6>Personal Portfolio</h6>
-                    <p>
-                        <strong>JSX | CSS</strong><br />
-                        Utilized ReactJS to create a dynamic and responsive 
-                        user interface, enhancing the user experience with 
-                        smooth transitions and interactive components. 
-                        Employed modern web development practices, including 
-                        component-based architecture, state management, 
-                        and routing, to ensure scalability and maintainability 
-                        of the website.
-                    </p>
-                    <a 
-                    href='https://github.com/vanmyngo/react-portfolio'
-                    target='_blank'
-                    rel='noreferrer'
-                    >
-                        <FaGithub />
-                        &nbsp;
-                        Github
-                    </a>
-                </div>
+                {/* FIXME: carousel not working */}
+                {projects.map((project, index) => (
+                    <ProjectCard key={index} project={project} />
+                ))}
             </Carousel>
         </Container>
     );
