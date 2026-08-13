@@ -26,7 +26,9 @@ const Hero = () => {
                 <p id='social-media-header'>Learn more about me:</p>
                 <SocialMediaLink />
             </Col>
-            <img src={profile} alt='profile of van ngo' id='profile-img'/>
+            <div id='hero-image-wrapper'>
+                <img src={profile} alt='profile of van ngo' id='profile-img'/>
+            </div>
         </Container>
     );
 };
