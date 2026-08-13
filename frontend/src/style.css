@@ -1,6 +1,4 @@
 body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     background-color: #121212;
     display: flex;
     flex-direction: column;
@@ -44,29 +42,15 @@ h2 {
 .hero-section {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
-    margin-top: 20px;
     align-items: center;
-}
-
-#hero-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex: 0 0 50%;
-}
-
-#hero-image-wrapper {
-    display: flex;
-    flex: 0 0 50%; 
-    justify-content: center;
-    align-items: center;
+    gap: 5rem;
+    padding: 10% 0;
 }
 
 #profile-img {
     border-radius: 40%;
-    width: 60%;
-    height: auto; /* matches height of #hero-info via stretch */
+    width: 30%;
+    height: 100%;
     aspect-ratio: 1 / 1;
 }
 
@@ -121,19 +105,13 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     gap: 5rem;
-    margin: 50px 0;
-}
-
-.about-section > .col {
-    flex: 1;
+    padding: 10% 0;
 }
 
 #utsa-logo {
-    width: 30%;
-    height: auto;
-    padding: 10px 0;
+    width: 20%;
+    height: 100%;
 }
 /* #endregion ABOUT */
 

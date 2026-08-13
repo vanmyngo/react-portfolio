@@ -7,7 +7,7 @@ import resume from '../static/VanNgo-Resume.pdf';
 const Hero = () => {
     return (
         <Container id='home' className='hero-section'>
-            <Col id='hero-info'>
+            <Col>
                 <Row>
                     <span id='hero-greeting'>
                         Hey there! I'm <br /> <b id='hero-name'>VAN</b>
@@ -26,9 +26,7 @@ const Hero = () => {
                 <p id='social-media-header'>Learn more about me:</p>
                 <SocialMediaLink />
             </Col>
-            <div id='hero-image-wrapper'>
-                <img src={profile} alt='profile of van ngo' id='profile-img'/>
-            </div>
+            <img src={profile} alt='profile of van ngo' id='profile-img'/>
         </Container>
     );
 };
