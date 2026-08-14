@@ -3,7 +3,7 @@ const projects = [
         title: "Portfolio",
         description: "A personal portfolio website built with React and Bootstrap to showcase my projects and skills.",
         technologies: ["React.js", "Bootstrap", "CSS", "JavaScript", "HTML"],
-        liveDemoUrl: "https://vanmyngo.github.io",
+        liveDemoUrl: "https://vanmyngo.github.io/react-portfolio",
         githubUrl: "https://github.com/vanmyngo/react-portfolio"
     },
     {
