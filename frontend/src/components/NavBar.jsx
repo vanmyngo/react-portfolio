@@ -11,7 +11,7 @@ const NavBar = () => {
                     <NavHashLink
                     smooth
                     as={Link} 
-                    to='/react-portfolio/#home'>
+                    to='/#home'>
                         <img src={nameLogo} alt='chinese character name logo' id='navbar-logo'/>
                     </NavHashLink>
                 </Navbar.Brand>
@@ -21,7 +21,7 @@ const NavBar = () => {
                     className='navbar-text'
                     smooth
                     as={Link} 
-                    to='/react-portfolio/#home'
+                    to='/#home'
                     >
                         HOME
                     </NavHashLink>
@@ -29,7 +29,7 @@ const NavBar = () => {
                     className='navbar-text'
                     smooth
                     as={Link} 
-                    to='/react-portfolio/#about'
+                    to='/#about'
                     >
                         ABOUT
                     </NavHashLink>
@@ -37,7 +37,7 @@ const NavBar = () => {
                     className='navbar-text'
                     smooth
                     as={Link} 
-                    to='/react-portfolio/#language'
+                    to='/#language'
                     >
                         SKILLS
                     </NavHashLink>
@@ -45,7 +45,7 @@ const NavBar = () => {
                     className='navbar-text'
                     smooth
                     as={Link} 
-                    to='/react-portfolio/#project'
+                    to='/#project'
                     >
                         PROJECTS
                     </NavHashLink>
