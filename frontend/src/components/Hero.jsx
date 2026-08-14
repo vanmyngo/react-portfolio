@@ -13,7 +13,7 @@ const Hero = () => {
                         Hey there! I'm <br /> <b id='hero-name'>VAN</b>
                     </span>
                     <p>
-                        I'm a software engineer who loves picking up new tools fast 
+                        I'm a <b>software engineer</b> who loves picking up new tools fast 
                         and turning them into working software. From automated testing 
                         to full-stack development, I bring strong QA instincts and 
                         quick execution to everything I build — and I'm always looking 
