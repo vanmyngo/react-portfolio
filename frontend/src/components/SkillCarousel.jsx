@@ -23,6 +23,7 @@ import {
     SiJira,
     SiSelenium,
 } from 'react-icons/si';
+import Playwright from '../static/images/PlaywrightIcon';
 
 // Map icon names (as used in the data files) to the actual icon components.
 const iconMap = {
@@ -42,6 +43,7 @@ const iconMap = {
     SiSelenium,
     FaJava,
     FaNodeJs,
+    Playwright,
 };
 
 // number of items depend on screen size

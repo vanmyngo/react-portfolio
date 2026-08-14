@@ -6,7 +6,7 @@ const devops = [
     { name: 'Vercel', icon: 'TbBrandVercel' },
     { name: 'Jira', icon: 'SiJira' },
     { name: 'Confluence', icon: 'SiConfluence' },
-    { name: 'Playwright', icon: '' },
+    { name: 'Playwright', icon: 'Playwright' },
     { name: 'Selenium', icon: 'SiSelenium' },
 ];
 

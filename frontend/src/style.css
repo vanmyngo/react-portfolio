@@ -117,18 +117,16 @@ h2 {
 
 /* #region LANGUAGES */
 .language-section {
-    margin: 50px 0;
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 5rem;
+    padding: 10% 0;
 }
 
 .language-icon {
-    align-content: space-around;
-    justify-content: center;
-    padding: 1px 3px;
-    margin: 10px 0;
+    margin: 10%;
+    filter: grayscale(100%);
 }
 
 .alice-carousel {
