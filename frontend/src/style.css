@@ -14,7 +14,7 @@ b {
 
 h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 /* #region NAVBAR */
@@ -136,15 +136,15 @@ h2 {
 
 /* #region PROJECTS */
 .project-section {
-    padding: 50px 0;
+    padding: 10% 0;
 }
 
 .project-card {
-    border-radius: 10px;
+    border-radius: 5%;
     display: flex;
     flex-direction: column;
-    margin: 0 10px;
-    padding: 15px;
+    padding: 5%;
+    margin: 0 5%;
     background: #1E1E1E;
 }
 
@@ -152,8 +152,8 @@ h2 {
     width: 100%;
     height: auto;
     object-fit: cover;
-    border-radius: 15px;
-    margin-bottom: 10px;
+    border-radius: 2%;
+    margin-bottom: 5%;
 }
 
 .project-card-header {
@@ -164,38 +164,31 @@ h2 {
 
 .project-card-title {
    font-size: 1.2rem;
+   text-align: right;
 }
 
 .project-card-link {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
     gap: 5px;
-}
-
-.project-card-description {
-    /* margin: 10px 0; */
-}
-
-.project-card-technologies {
-  
+    margin-top: 5%;
 }
 /* #endregion PROJECTS */
 
 /* #region FOOTER */
 .footer-section {
-    display: inline-flex !important;
-    align-content: space-around;
-    align-items: center;
+    display: inline-flex;
     justify-content: center;
-    margin: 0 !important;
     width: 100%;
     height: auto;
-    padding: 3px 15px !important;
+    padding: 1% 0;
     background: #1E1E1E;
 }
 
 #footer-logo {
-    width: 3%;
-    height: auto;
+    display: flex;
+    width: auto;
+    height: 1.2rem;
     padding: 0 5px;
 }
 /* #endregion FOOTER */
