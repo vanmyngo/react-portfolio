@@ -1,8 +1,10 @@
+import nameLogo from '../static/images/name.ico';
+
 const Footer = () => {
     return (
-        <div className='footer-section'>
-            © 2023 <span id='footer-logo'>&nbsp;vn.&nbsp;</span> All rights reserved.
-        </div>
+        <footer className='footer-section'>
+            © 2026 <img src={nameLogo} alt='name logo' id='footer-logo'/> All rights reserved.
+        </footer>
     );
 };
 

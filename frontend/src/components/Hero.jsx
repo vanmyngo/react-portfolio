@@ -1,33 +1,32 @@
 import { Container, Col, Row, Button } from 'react-bootstrap';
 import { PiDownloadSimple } from 'react-icons/pi';
 import SocialMediaLink from './SocialMediaLink';
-import heroAvatar from '../static/images/hero-avatar.png';
-import resume from '../static/resume_van-ngo.pdf';
+import profile from '../static/images/profile.jpg';
+import resume from '../static/VanNgo-Resume.pdf';
 
 const Hero = () => {
     return (
-        <Container className='hero-section' id='home'>
-            <Col className='hero-info'>
+        <Container id='home' className='hero-section'>
+            <Col>
                 <Row>
-                    <h2>
-                        Hi! I'm
-                    </h2>
-                    <h1>
-                        <strong>Van Ngo</strong>
-                    </h1>
+                    <span id='hero-greeting'>
+                        Hey there! I'm <br /> <b id='hero-name'>VAN</b>
+                    </span>
                     <p>
-                        I'm a passionate and continuous <strong>LEARNER</strong>, 
-                        constantly seeking new knowledge and skills 
-                        to fuel my projects.
+                        I'm a <b>software engineer</b> who loves picking up new tools fast 
+                        and turning them into working software. From automated testing 
+                        to full-stack development, I bring strong QA instincts and 
+                        quick execution to everything I build — and I'm always looking 
+                        for the next challenge to grow into.
                     </p>
                 </Row>
-                <Button href={resume} target='_blank' rel='noreferrer'>
-                    DOWNLOAD CV <PiDownloadSimple />
+                <Button href={resume} target='_blank' rel='noreferrer' id='download-resume-btn'>
+                    <PiDownloadSimple /> RESUME
                 </Button>
                 <p id='social-media-header'>Learn more about me:</p>
                 <SocialMediaLink />
             </Col>
-            <img src={heroAvatar} alt='software developer' className="hero-avatar" />
+            <img src={profile} alt='profile of van ngo' id='profile-img'/>
         </Container>
     );
 };

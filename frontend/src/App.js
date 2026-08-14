@@ -1,5 +1,5 @@
-import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css';
 import { BrowserRouter } from 'react-router-dom';
 import About from './components/About';
 import Hero from './components/Hero';
@@ -10,16 +10,14 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
-      <BrowserRouter>
-        <NavBar />
-        <Hero />
-        <About />
-        <Language />
-        <Project /> 
-        <Footer />
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <NavBar />
+      <Hero />
+      <About />
+      <Language />
+      <Project /> 
+      <Footer />
+    </BrowserRouter>
   );
 }
 
