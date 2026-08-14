@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2fceced1.css",
-    "main.js": "/react-portfolio/static/js/main.4970e16e.js",
+    "main.css": "/react-portfolio/static/css/main.c1bb062b.css",
+    "main.js": "/react-portfolio/static/js/main.1ae46d93.js",
     "static/js/453.4c34efc3.chunk.js": "/react-portfolio/static/js/453.4c34efc3.chunk.js",
-    "static/media/resume_van-ngo.pdf": "/react-portfolio/static/media/resume_van-ngo.c5ed32a32ad07993f5a5.pdf",
-    "static/media/portfolio.png": "/react-portfolio/static/media/portfolio.6c3b851918ef6e9cab41.png",
-    "static/media/hero-avatar.png": "/react-portfolio/static/media/hero-avatar.b35fdf343d19c108121c.png",
-    "static/media/stock-prediction.webp": "/react-portfolio/static/media/stock-prediction.6c56afbc12cddf49320b.webp",
+    "static/media/Nookly.png": "/react-portfolio/static/media/Nookly.834f7268ffa37b2be618.png",
+    "static/media/portfolio.png": "/react-portfolio/static/media/portfolio.4b49ffe1d47c85960377.png",
+    "static/media/utsa-logo.png": "/react-portfolio/static/media/utsa-logo.3f4a6fe3e21dfe8c2cef.png",
+    "static/media/name.ico": "/react-portfolio/static/media/name.154946230d4d70fbc04d.ico",
+    "static/media/VanNgo-Resume.pdf": "/react-portfolio/static/media/VanNgo-Resume.490b60700b6431be126d.pdf",
     "static/media/profile.jpg": "/react-portfolio/static/media/profile.094a99d4e012d7bc4b91.jpg",
-    "static/media/language-prediction.png": "/react-portfolio/static/media/language-prediction.9ae58a3fe9767d7bbab9.png",
     "static/media/revicons.eot": "/react-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/react-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/react-portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/playwright.svg": "/react-portfolio/static/media/playwright.40b41b34d49177d34c96d79c0a71b756.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.2fceced1.css.map": "/react-portfolio/static/css/main.2fceced1.css.map",
-    "main.4970e16e.js.map": "/react-portfolio/static/js/main.4970e16e.js.map",
+    "main.c1bb062b.css.map": "/react-portfolio/static/css/main.c1bb062b.css.map",
+    "main.1ae46d93.js.map": "/react-portfolio/static/js/main.1ae46d93.js.map",
     "453.4c34efc3.chunk.js.map": "/react-portfolio/static/js/453.4c34efc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fceced1.css",
-    "static/js/main.4970e16e.js"
+    "static/css/main.c1bb062b.css",
+    "static/js/main.1ae46d93.js"
   ]
 }
