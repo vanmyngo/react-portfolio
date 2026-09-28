@@ -1,6 +1,7 @@
 const languagesAndFrameworks = [
-    { name: 'CSS', icon: 'TbBrandCss3' },
     { name: 'Javascript', icon: 'TbBrandJavascript' },
+    { name: 'Typescript', icon: 'TbBrandTypescript'},
+    { name: 'CSS', icon: 'TbBrandCss3' },
     { name: 'HTML', icon: 'TbBrandHtml5' },
     { name: 'Python', icon: 'TbBrandPython' },
     { name: 'Java', icon: 'FaJava' },
