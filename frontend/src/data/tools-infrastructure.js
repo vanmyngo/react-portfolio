@@ -4,6 +4,7 @@ const devops = [
     { name: 'GitHub Actions', icon: 'SiGithubactions' },
     { name: 'GitHub', icon: 'TbBrandGithub' },
     { name: 'Vercel', icon: 'TbBrandVercel' },
+    { name: 'AWS', icon: 'TbBrandAws'},
     { name: 'Jira', icon: 'SiJira' },
     { name: 'Confluence', icon: 'SiConfluence' },
     { name: 'Playwright', icon: 'Playwright' },
