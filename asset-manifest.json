@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.c1bb062b.css",
-    "main.js": "/react-portfolio/static/js/main.e99a5968.js",
+    "main.js": "/react-portfolio/static/js/main.1c1a6a63.js",
     "static/js/453.4c34efc3.chunk.js": "/react-portfolio/static/js/453.4c34efc3.chunk.js",
     "static/media/Nookly.png": "/react-portfolio/static/media/Nookly.834f7268ffa37b2be618.png",
     "static/media/Portfolio.png": "/react-portfolio/static/media/Portfolio.4b49ffe1d47c85960377.png",
     "static/media/utsa-logo.png": "/react-portfolio/static/media/utsa-logo.3f4a6fe3e21dfe8c2cef.png",
     "static/media/name.ico": "/react-portfolio/static/media/name.154946230d4d70fbc04d.ico",
     "static/media/VanNgo-Resume.pdf": "/react-portfolio/static/media/VanNgo-Resume.490b60700b6431be126d.pdf",
+    "static/media/Todo App.png": "/react-portfolio/static/media/Todo App.bf562b5dfbc59f4ddad4.png",
     "static/media/profile.jpg": "/react-portfolio/static/media/profile.094a99d4e012d7bc4b91.jpg",
     "static/media/revicons.eot": "/react-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/react-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -15,11 +16,11 @@
     "static/media/playwright.svg": "/react-portfolio/static/media/playwright.40b41b34d49177d34c96d79c0a71b756.svg",
     "index.html": "/react-portfolio/index.html",
     "main.c1bb062b.css.map": "/react-portfolio/static/css/main.c1bb062b.css.map",
-    "main.e99a5968.js.map": "/react-portfolio/static/js/main.e99a5968.js.map",
+    "main.1c1a6a63.js.map": "/react-portfolio/static/js/main.1c1a6a63.js.map",
     "453.4c34efc3.chunk.js.map": "/react-portfolio/static/js/453.4c34efc3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1bb062b.css",
-    "static/js/main.e99a5968.js"
+    "static/js/main.1c1a6a63.js"
   ]
 }
